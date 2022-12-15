@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(73, 226, 43);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
+}
+
+#header {
+    background: url(assets/parallax_one.jpg);
+}
