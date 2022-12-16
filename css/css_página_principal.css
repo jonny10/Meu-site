@@ -1,13 +1,16 @@
+/*Definindo as propriedades gerais de tudo*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
 
+/*Definindo qual seria o taanho da fonte de acordo com o aparelho do usuario*/
 html {
     font-size: 62.5%;
 }
 
+/*Definindo qual será a fonte, o minimo e máximo de largura e que o corpo usara 100% da largura*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1920px;
@@ -15,6 +18,10 @@ body {
     width: 100%;
 }
 
+/*
+Definindo que o div com ID "header" o fundo será uma imagem, que o minimo de tamnho será 1000 pixels,
+que o fundo estará no meio, que a imagem do fundo não repetira e que ele será flexivel
+*/
 #header {
     background: url("../assets/img/parallax_one.png");
     min-height: 100rem;
@@ -25,6 +32,11 @@ body {
     display: flex;
 }
 
+/*
+Definindo que a tag "h1" dentro do ID "header" terá um arredondamento de 60 pixels, uma altura de 500 pixels
+largura de 500 pixels, cor branca, que a altura da fonte será de 30 pixels, que o fundo será transparente
+e o texto estará no meio, com uma margem de 4000 pixel e um afastamento interno de 80 pixels
+*/
 #header h1 {
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.300);
     border-radius: 6rem;
@@ -39,6 +51,10 @@ body {
     padding-top: 8rem;
 }
 
+
+/*
+definindo qual será a imagem que será o fundo de cada sessãp
+*/
 .section-a {
     background: url("../assets/img/parallax_two.jpg");
 }
@@ -59,6 +75,11 @@ body {
     background: url("../assets/img/parallax_six.jpg");
 }
 
+
+/*
+Definindo que todas as sessões terão no minito 1000m pixels de altura, 
+que o fundo estará no meio, que a imagem do fundo não repetira 
+*/
 .section-a, .section-b, .section-c, .section-d, .section-e {
     min-height: 100rem;
     background-attachment: fixed;
@@ -67,6 +88,11 @@ body {
     background-size: cover;
 }
 
+/*
+Definindo que todas as divs com a tag "parallax" terá um fundo preto, com o texto branco,
+terá no minimo 300 pixels de altura, a altura será automatica de acordo com os conteúdos dentro
+e terá um espaçamento interno de 20 pixels
+*/
 .parallax{
     background-color: rgb(8, 21, 56);
     color: white;
@@ -75,14 +101,63 @@ body {
     padding: 2rem;
 }
 
+
+/*
+Definindo que as tags h1 dentro das classes "parallax" o texto estará no meio
+o tamanho da fonte será de 50 pixels e o espaçamento interno será de 20 pixels
+*/
 .parallax h1{
     text-align: center;
     font-size: 5rem;
     padding: 2rem;
 }
 
+
+/*
+Definindo que as tags p dentro das classes "parallax" o texto estará no meio
+o tamanho da fonte será de 20 pixels e o espaçamento interno será de 10 pixels
+*/
 .parallax p{
     text-align: center;
     font-size: 2rem;
     margin: 1rem;
+}
+
+
+/*
+Definindo que as tags button dentro das classes "parallax" a altura será de 100 pixels,
+a largura será de 30% da tela, o texto estará na cor branca, o fundo do botão será transparente,
+o arredontamento da borda será de 30 pixels, o estilo da borda será solida, a cor da borda será
+branca, a largura da borda será de 5 pixels, a margem terá 20 pixels de altura e 35% de largura
+o tamanho da fonte será de 30 pixels
+*/
+.parallax button{
+    height: 10rem;
+    width: 30%;
+    color: white;
+    background-color: transparent;
+    border-radius: 3rem;
+    border: 0.5rem solid white;
+    margin: 2rem 35%;
+    font-size: 3rem;
+}
+
+
+/*
+Definindo que quando o mouse estiver em cima do botão que está dentro da classe "parallax" 
+o fundo mudará de cor de transparente para azul escuro
+*/
+.parallax button:hover{
+    background-color: rgba(78, 212, 245, 0.192);
+}
+
+
+/*
+Definindo que quando clicar no botão que está dentro da classe "parallax" 
+o fundo mudará de cor de azul escuro para azul claro e a cor do texto mudara
+para preto
+*/
+.parallax button:active{
+    background-color: rgb(78, 212, 245);
+    color: black
 }
