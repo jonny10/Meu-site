@@ -1,6 +1,23 @@
-1- box-sizing
-2- background-attachment
-3- background-size: cover
+1- box-sizing: define  que a borda e o prenchimento(padding) estará junto ao tamanho do elemento
+
+
+2- background-attachment: se a imagem do background está fixo na página ou se rolora(scroll) junto a página
+
+
+3- background-size: define o tamanho da imagem do background, com pixels porcentagem e etc ou com duas palavras:
+
+A containpalavra-chave dimensiona a imagem de plano de fundo para ser o maior possível 
+(mas tanto a largura quanto a altura devem caber dentro da área de conteúdo). Assim, dependendo das proporções 
+da imagem de fundo e da área de posicionamento do fundo, pode haver algumas áreas do fundo que 
+não são cobertas pela imagem de fundo.
+
+A coverpalavra-chave dimensiona a imagem de plano de fundo para que a área de conteúdo seja
+totalmente coberta pela imagem de plano de fundo (sua largura e altura são iguais ou excedem 
+a área de conteúdo). Como tal, algumas partes da imagem de fundo podem não estar visíveis na 
+área de posicionamento de fundo.
+
 4 -box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.300);
     text-shadow: 10px 10px 10px black;
-4 - text-indent: 30px;
+
+
+5 - text-indent: 30px; identação do texto
