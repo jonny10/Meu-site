@@ -1,0 +1,60 @@
+/*Definindo as propriedades gerais de tudo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/*Definindo qual seria o taanho da fonte de acordo com o aparelho do usuario*/
+html {
+    font-size: 62.5%;
+}
+
+/*Definindo qual será a fonte, o minimo e máximo de largura e que o corpo usara 100% da largura*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
+    background-color: rgba(11, 165, 236, 0.63);
+}
+
+header {
+    text-align: center;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    height: 10rem;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.conteiner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.dentro {
+    background-color: transparent;
+    border: 0.5rem solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 2.5rem;
+}
+
+.dentro h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.dentro form{
+    es
+}
+
