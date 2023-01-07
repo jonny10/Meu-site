@@ -1,3 +1,7 @@
+:root{
+    --espaco: 1.5rem;
+}
+
 /*Definindo as propriedades gerais de tudo*/
 * {
     margin: 0;
@@ -34,11 +38,15 @@ header h1 {
     padding-top: 3rem;
 }
 
+
+
 .conteiner {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 10rem;
+    min-height: 60rem;
+
 }
 
 .dentro {
@@ -46,15 +54,114 @@ header h1 {
     border: 0.5rem solid rgb(0, 0, 0);
     border-radius: 2rem;
     padding: 2.5rem;
+    height: 70%;
+    margin: 10rem;
+    width: 80%;
+    
 }
 
 .dentro h1{
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 2rem;
     color: white;
 }
 
 .dentro form{
-    es
+    font-size: 1.8rem;
+    color: white;
 }
 
+.box {
+    margin-bottom: var(--espaco);
+    background: transparent;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    height: 3rem;
+    max-width: 30rem;
+    width: 100%;
+    color: white;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+}
+
+.textarea {
+    margin-bottom: var(--espaco);
+    background: transparent;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    height: 20rem;
+    max-width: 30rem;
+    width: 100%;
+    color: white;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+}
+
+.box:focus, .box:hover {
+    background-color: black;
+}
+
+p {
+    margin-top: var(--espaco);
+    
+}
+
+.Dgender {
+    margin-bottom: var(--espaco);
+    margin-top: var(--espaco);
+    background: transparent;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 9rem;
+    color: white;
+    padding-left: 0.3rem;
+    font-size: 1.8rem;
+}
+
+.Dgender option {
+    background: rgba(11, 165, 236, 0.63);
+    color: white;  
+}
+
+
+input[type=submit], input[type=reset] {
+    background: transparent;
+    color: white;
+    font-size: 1.8rem;
+    width: 15rem;
+    height: 5rem;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    float: left;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background: black;
+}
+
+input[type=submit]:active, input[type=reset]:active {
+    background: white;
+    color: black;
+}
+
+
+
+.div2 {
+    display: flex;
+}
+
+.Dform {
+ margin-right: 1rem;
+
+}
+.dphoto{
+    background: url(../assets/img/aleatorio.png);
+    min-height: 65rem;
+    min-width: 1rem;
+    width: 100%;
+    background-attachment:local;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
