@@ -44,7 +44,7 @@ header h1 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
     min-height: 60rem;
 
 }
@@ -55,7 +55,7 @@ header h1 {
     border-radius: 2rem;
     padding: 2.5rem;
     height: 70%;
-    margin: 10rem;
+    margin: 1rem;
     width: 80%;
     
 }
@@ -79,7 +79,7 @@ header h1 {
     height: 3rem;
     max-width: 30rem;
     width: 100%;
-    color: white;
+    color: black;
     padding-left: 1rem;
     font-size: 1.8rem;
 }
@@ -94,11 +94,13 @@ header h1 {
     width: 100%;
     color: white;
     padding-left: 1rem;
+    padding-top: 1rem;
     font-size: 1.8rem;
 }
 
 .box:focus, .box:hover {
-    background-color: black;
+    background-color: white;
+    border-color: rgba(11, 165, 236, 0.63);
 }
 
 p {
@@ -134,6 +136,7 @@ input[type=submit], input[type=reset] {
     border: 0.1rem solid rgb(0, 0, 0);
     border-radius: 0.5rem;
     float: left;
+    margin-right: 0.5rem;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {
@@ -152,9 +155,10 @@ input[type=submit]:active, input[type=reset]:active {
 }
 
 .Dform {
- margin-right: 1rem;
-
+    margin-right: 1rem;
+    width: 50%;
 }
+
 .dphoto{
     background: url(../assets/img/aleatorio.png);
     min-height: 65rem;
